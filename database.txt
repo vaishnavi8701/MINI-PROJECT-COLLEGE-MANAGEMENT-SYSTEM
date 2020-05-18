@@ -1,0 +1,24 @@
+ALTER TABLE Persons AUTO_INCREMENT=1000;
+
+CREATE TABLE Persons (
+    Personid int NOT NULL AUTO_INCREMENT,
+    last_name varchar(25) not null ,
+    first_name varchar(25) not null,
+    email varchar(30) not null,
+    FGname varchar(25) not null,
+    Gender varchar(10),
+    Year varchar(10),
+    address varchar(50),
+    PRIMARY KEY (Personid)
+);
+
+
+CREATE TABLE Feedback (
+     email varchar(30),
+comment varchar(1000),
+     PersonID int,
+    FOREIGN KEY (PersonID) REFERENCES persons(PersonID)
+);
+
+
+Create table subscribers ( name varchar(25) not null, email varchar(30) not null );

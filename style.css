@@ -1,0 +1,139 @@
+.bg-custom-green{
+    background-color: #00694e;
+}
+
+.navbar-nav>li{
+    padding-left:110px;
+}
+
+.btn-custom:hover{
+    background-color: whitesmoke;
+}
+
+.btn-instagram{
+    padding-left:200px;
+}
+.bg-img {
+
+    background-image: url("uni-image.jpg");
+
+    min-height: 665px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.btn-on-index{
+    background-color: #00694e;
+}
+
+
+.container {
+    position: absolute;
+    right: 0;
+    margin: 100px;
+    max-width: 400px;
+    padding: 16px;
+    background-color: whitesmoke;
+
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.btn-login-custom:hover{
+    background-color: #00694e;
+}
+
+
+.zoom  {
+    transition: transform .2s;
+
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    transform: scale(1.05); 
+    background-color:#00694e;
+    color:whitesmoke;
+  }
+
+.fact-img{
+    background-image: url("uni-garden.jpg");
+    height:500px;
+}
+
+.sub-card1{
+    background-image: url("sub-card1.jpg");
+    width: 900px;
+    height:600px;
+    margin-bottom:50px; 
+    float:right;
+    transform: scaleX(-1);
+}
+
+.custom-font{
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+
+.container1 {
+    position: relative;
+
+    margin: 87px;
+    max-width: 300px;
+    padding: 16px;
+    border-radius: 5px;
+    opacity: 2;
+}
+
+.hover-opacity  {
+    transition: transform .2s;
+
+    margin: 0 auto;
+  }
+  .hover-opacity:hover {
+    opacity: .7; 
+
+  }
+
+  .container-reg {
+    position: absolute;
+    margin: 100px;
+    max-width: 350px;
+    padding: 16px;
+    background-color: whitesmoke;
+    
+
+}
+.bg-img-reg {
+
+    background-image: url("uni-image.jpg");
+
+    min-height: 665px;
+    height: 1000px;
+
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.about-us-img{
+    background-image: url("about-us-img.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
